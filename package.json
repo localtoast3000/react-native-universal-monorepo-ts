@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "time-to-do",
   "version": "0.0.1",
   "private": true,
   "workspaces": {
@@ -8,7 +8,9 @@
     ],
     "nohoist": [
       "**/react",
-      "**/react-dom"
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**"
     ]
   },
   "scripts": {
